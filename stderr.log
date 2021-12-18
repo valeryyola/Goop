@@ -1,0 +1,14 @@
+Invalid HTTP_HOST header: 'goo.thenetzones.com'. You may need to add 'goo.thenetzones.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'goo.thenetzones.com'. You may need to add 'goo.thenetzones.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'goo.thenetzones.com'. You may need to add 'goo.thenetzones.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'goo.thenetzones.com'. You may need to add 'goo.thenetzones.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Invalid HTTP_HOST header: 'goo.thenetzones.com'. You may need to add 'goo.thenetzones.com' to ALLOWED_HOSTS.
+Bad Request: /
+Invalid HTTP_HOST header: 'goo.thenetzones.com'. You may need to add 'goo.thenetzones.com' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+Not Found: /static/admin/css/fonts.css
+Not Found: /favicon.ico
