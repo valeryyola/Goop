@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-*3@)u&6ui-a8v3^fk(e-xf-+p+ey5ci#ybz45x2j&b*#a78eu_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['goo.thenetzones.com']
+ALLOWED_HOSTS = ['goo.thenetzones.com', '127.0.0.1:8000','127.0.0.1']
+
+# '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'
 
 
 # Application definition
@@ -37,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'base.apps.BaseConfig'
 ]
 
 MIDDLEWARE = [
@@ -54,7 +57,7 @@ ROOT_URLCONF = 'goop.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
